@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: #ff0000;
+    text-align: left;
+}
+
+h1{
+    font-size: 36px;
+    color: #0a0101b6;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    color: #560361;
+    text-align: center;
+}
+
+.contato-title{
+    text-align: center; /* text-align diferente (right) */
+    color: #c0392b;    /* nova cor (vermelho) */
+    font-size: 22px;   /* mais um tamanho de fonte */
+}
+
+h3{
+    font-size: 24px;
+    color: #10009c;
+    text-align: left;
+}
+p{
+    font-size: 14px;
+    color: #444444;
+    text-align: justify;
+}
+div{
+    text-align: left;
+}
+
+span{
+    color: #0066cc;
+    font-size: 14px;
+}
+.destaque{
+    color: #a5e73c;
+    font-size: 16px;
+}
+
+.secao{
+    text-align: center;
+}
+
+.link-social{
+    color: #16a085;
+    font-size: 15px;
+    
+}
+
+.tecnologia{
+    color: #0f0114;
+    font-size: 14px;
+}
+
+div li {
+    text-align: left;
+}
+
+.link-social a {
+    text-decoration: none;
+    color: #6e2c94;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.secao-card{
+    background: #ffffff;
+    border: 1px solid #e6f0f3;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.secao-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.06);
+}
+
+.foto{
+    float: right;
+    width: 50px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
